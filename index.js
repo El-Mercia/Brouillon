@@ -6,6 +6,8 @@ app.listen(3000, () => {
 	console.log("SERVER STARTED...");
 });
 
+app.use(express.static('./public'));
+
 app.get("/api/user", (req, res) => {
 	res.send ({
 		name: "Toto",
@@ -16,8 +18,5 @@ app.get("/api/user", (req, res) => {
 	});
 });
 
-app.use(express.static('./public'));
 
-app.get('/get_text', (req, res) => {
-    res.send('hello world');
-});
+
