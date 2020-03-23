@@ -1,7 +1,7 @@
-- [ ] création projet git (avec commit réguliers)
-- [ ] installation express
+- [X] création projet git (avec commit réguliers)
+- [X] installation express
 
-- [ ] création index.html avec dedans :
+- [X] création index.html avec dedans :
     - [ ] html
     - [ ] css ( dans une feuille appart )
     - [ ] une image stockée à côté du fichier html, et appelée dedans
